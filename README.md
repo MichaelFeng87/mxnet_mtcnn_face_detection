@@ -1,4 +1,14 @@
+1. brew install cmake
+2. 下载
+https://dl.bintray.com/boostorg/release/1.64.0/source/:boost_1_64_0.tar.gz
+3. 安装 boost.py
+    ./bootstrap.sh 修改python3路径
+    ./bootstrap.sh --with-libraries=python
+    ./b2
+    ./b2 install
+4. pip3 install mxnet    
 # MTCNN_face_detection_and_alignment
+
 
 ## About
 
